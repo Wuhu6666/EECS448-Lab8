@@ -1,0 +1,41 @@
+
+    #pic1{
+    float:left;
+    width:22%;
+    }
+
+    #pic2{
+    float:right;
+    width: 22%;
+    }
+
+    body{
+        background-image: url(background.jpg);
+        background-size: 20% 20%;
+        background-repeat:repeat;
+        background-attachment: fixed;
+    }
+
+    .intro{
+        text-indent:2em;
+        display:table-cell;
+        width:80%;
+        color:black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18;
+        background-color:#ffe6e6;
+    }
+
+    .center{
+        clear:both;
+        display:block;
+        margin:auto;
+    }
+
+    links{
+        background-color:#ff8080;
+    }
+
+    links:hover{
+        background-color:  #cc6699;
+    }
